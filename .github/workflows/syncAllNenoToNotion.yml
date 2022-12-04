@@ -45,7 +45,7 @@ jobs:
       
       - name: runSync
         env:
-          NOTION_DATABASEID: 0cffee7b7f114e97bccd64d58d27e5b8
+          NOTION_DATABASEID: f538cf7577224278b6b627de0f1d1abc
           NOTION_TOKEN: secret_NOCpmWKvEQ79w548hCqbPyNuyxf4NItQcotzXx7BcO2
           GITHUB_TOKEN: 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
         run: node syncAllNenoToNotion.js
