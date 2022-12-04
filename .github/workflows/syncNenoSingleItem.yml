@@ -42,7 +42,7 @@ jobs:
       - name: runSync
         if: ${{ contains(github.event.head_commit.message, '[ADD]') }}
         env:
-          NOTION_DATABASEID: f538cf7577224278b6b627de0f1d1abc
+          NOTION_DATABASEID: 00bbe01eeb8e4741aaa7f80a1ae07e4e
           NOTION_TOKEN: secret_NOCpmWKvEQ79w548hCqbPyNuyxf4NItQcotzXx7BcO2
           GITHUB_TOKEN: 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
         run: node syncNenoToNotion.js
